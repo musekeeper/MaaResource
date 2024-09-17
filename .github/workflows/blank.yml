@@ -1,4 +1,4 @@
-name: Sync Fork
+name: Sync Fork And Push To Gitee
 
 on:
   schedule:

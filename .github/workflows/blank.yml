@@ -10,9 +10,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: TG908/fork-sync@v1.1
+      - name: sync from upstream
+        uses: TG908/fork-sync@v1.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           owner: MaaAssistantArknights
           base: main
           head: main
+      - name: sync to gitee
+        uses: abersheeran/sync-gitee-mirror@v1-beta
+        with:
+          repository: musekeeper/MaaResource
+          username: ${{ secrets.GITEEUSERNAME }}
+          password: ${{ secrets.GITEEPASSWORD }}

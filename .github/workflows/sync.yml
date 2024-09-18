@@ -2,7 +2,7 @@ name: Sync Fork And Push To Gitee
 
 on:
   schedule:
-    - cron: '*/60 * * * *' # every 30 minutes
+    - cron: '*/60 * * * *' # every 60 minutes
   workflow_dispatch: # on button click
 
 jobs:

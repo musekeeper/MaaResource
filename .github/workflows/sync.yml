@@ -1,8 +1,14 @@
 name: Sync Fork And Push To Gitee
 
 on:
-  schedule:
-    - cron: '*/60 * * * *' # every 60 minutes
+  # 每天下午 4-11 点每小时运行一次  
+  schedule:  
+    - cron: '0 16-23 * * *'  
+  # 每天早上 9-11 点每小时运行一次  
+    - cron: '0 9-11 * * *'  
+    - cron: '30 17 * * *'  # 下午5 点 30 分  
+    - cron: '30 18 * * *'  # 下午6 点 30 分  
+    - cron: '30 19 * * *'  # 下午7 点 30 分  
   workflow_dispatch: # on button click
 
 jobs:

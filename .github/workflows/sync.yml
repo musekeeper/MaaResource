@@ -16,6 +16,9 @@ jobs:
     environment: GITEE_RSA_KEY
 
     steps:
+      - name: Checkout code  
+        uses: actions/checkout@v3  
+        
       - name: sync from upstream
         uses: TG908/fork-sync@v1.1
         with:
@@ -23,6 +26,7 @@ jobs:
           owner: MaaAssistantArknights
           base: main
           head: main
+          
       - name: sync to gitee
         uses: Yikun/hub-mirror-action@master
         with:

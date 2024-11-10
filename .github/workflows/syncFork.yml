@@ -50,7 +50,13 @@ jobs:
 
         
       - name: Show value of 'has_new_commits'
-        run: echo ${{ steps.sync.outputs.has_new_commits }}
+        run: git remote set-url origin https://gitee.com/musekeeper/MaaResource.git/
+             git config --global user.name ${{ secrets.USERNAME }}
+             git config --global user.password ${{ secrets.PASSWORD }}
+             git config --global user.name
+             git push origin
+
+        # run: echo ${{ steps.sync.outputs.has_new_commits }}
 
 
         # Set test_mode true during manual dispatch to run tests instead of the true action!!

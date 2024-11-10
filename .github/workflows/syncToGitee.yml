@@ -1,2 +1,22 @@
 name: sync to gitee
+on:
+    workflow_call:
+    workflow_dispatch:
+    workflow_run:
+      workflows: ["Sync Fork"] # 指定触发该工作流的上一个工作流名称
+      types:
+        - completed
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    environment: GITEE_RSA_KEY
 
+    steps:
+      - name: Checkout code  
+        uses: actions/checkout@v3  
+      - name: sync-gitee-mirror
+        uses: abersheeran/sync-gitee-mirror@v1-beta
+        with:
+          repository: musekeeper/MaaResource
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}

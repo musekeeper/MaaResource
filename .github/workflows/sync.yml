@@ -1,4 +1,4 @@
-name: Sync Fork And Push To Gitee
+name: Sync Fork
 
 on:  
   schedule:  
@@ -27,15 +27,24 @@ jobs:
           base: main
           head: main
 
-      - name: Async Github Branch To Gitee
-        uses: shanghaobo/github-branch-gitee@main
-        with:
-          github_repo: musekeeper/MaaResource
-          github_branch: dev
-          gitee_repo: musekeeper/MaaResource
-          gitee_branch: main
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}    
+      # - name: Async Github Branch To Gitee
+      #   uses: shanghaobo/github-branch-gitee@main
+      #   with:
+      #     github_repo: musekeeper/MaaResource
+      #     github_branch: dev
+      #     gitee_repo: musekeeper/MaaResource
+      #     gitee_branch: main
+      #     username: ${{ secrets.USERNAME }}
+      #     password: ${{ secrets.PASSWORD }}    
+
+
+      
+      # - name: sync-gitee-mirror
+      #   uses: abersheeran/sync-gitee-mirror@v1-beta
+      #   with:
+      #     repository: musekeeper/MaaResource
+      #     username: ${{ secrets.USERNAME }}
+      #     password: ${{ secrets.PASSWORD }}
 
           
       # - name: sync to gitee

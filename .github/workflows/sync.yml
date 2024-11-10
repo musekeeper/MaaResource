@@ -28,7 +28,7 @@ jobs:
           head: main
 
       - name: Async Github Branch To Gitee
-        uses: shanghaobo/github-branch-gitee@master
+        uses: shanghaobo/github-branch-gitee@main
         with:
           github_repo: musekeeper/MaaResource
           github_branch: main

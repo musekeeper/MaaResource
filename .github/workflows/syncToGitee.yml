@@ -14,9 +14,18 @@ jobs:
     steps:
       - name: Checkout code  
         uses: actions/checkout@v3  
-      - name: sync-gitee-mirror
-        uses: abersheeran/sync-gitee-mirror@v1-beta
+    #   - name: sync-gitee-mirror
+    #     uses: abersheeran/sync-gitee-mirror@v1-beta
+    #     with:
+    #       repository: musekeeper/MaaResource
+    #       username: ${{ secrets.USERNAME }}
+    #       password: ${{ secrets.PASSWORD }}
+      - name: Async Github Branch To Gitee
+        uses: shanghaobo/github-branch-gitee@main
         with:
-          repository: musekeeper/MaaResource
+          github_repo: musekeeper/MaaResource
+          github_branch: main
+          gitee_repo: musekeeper/MaaResource
+          gitee_branch: main
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          password: ${{ secrets.PASSWORD }}    

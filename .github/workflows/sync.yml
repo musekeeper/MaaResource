@@ -31,7 +31,7 @@ jobs:
         uses: shanghaobo/github-branch-gitee@main
         with:
           github_repo: musekeeper/MaaResource
-          github_branch: main
+          github_branch: dev
           gitee_repo: musekeeper/MaaResource
           gitee_branch: main
           username: ${{ secrets.USERNAME }}

@@ -35,7 +35,7 @@ jobs:
       
       - name: No new commits
         if: steps.sync.outputs.has_new_commits == 'false'
-        uses: ./.github/workflows/syncToGitee
+        uses: musekeeper/MaaResource@main/.github/workflows/syncToGitee
 
         # run: echo "There were no new commits."
 

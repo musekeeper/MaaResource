@@ -1,5 +1,6 @@
 name: Sync Fork
-
+permissions:
+  actions: write
 on:  
   schedule:  
     # 东八区下午4-11点（UTC 8-15点）每小时运行  
@@ -9,6 +10,7 @@ on:
     # 下午5点30分、6点30分、7点30分（UTC 9:30, 10:30, 11:30）  
     - cron: '30 9,10,11 * * *'
   workflow_dispatch: # on button click
+
 
 jobs:
   sync:
@@ -47,11 +49,10 @@ jobs:
       
       - name: No new commits
         if: steps.sync.outputs.has_new_commits == 'false'
-        uses: dusansimic/trigger-workflow-action@v0
+        uses: yakubique/trigger-github-workflow@v1
         with:
-          name: syncToGitee.yml
-          owner: musekeeper
-          repo: MaaResource
+          repository: musekeeper/MaaResource
+          workflow: syncToGitee.yml
         # run: echo "There were no new commits."
 
         

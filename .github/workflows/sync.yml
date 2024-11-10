@@ -27,12 +27,16 @@ jobs:
           base: main
           head: main
 
-      - name: sync-gitee-mirror
-        uses: abersheeran/sync-gitee-mirror@v1-beta
+      - name: Async Github Branch To Gitee
+        uses: shanghaobo/github-branch-gitee@master
         with:
-          repository: musekeeper/MaaResource
+          github_repo: musekeeper/MaaResource
+          github_branch: main
+          gitee_repo: musekeeper/MaaResource
+          gitee_branch: main
           username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
+          password: ${{ secrets.PASSWORD }}    
+
           
       # - name: sync to gitee
       #   uses: Yikun/hub-mirror-action@master

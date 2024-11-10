@@ -31,8 +31,8 @@ jobs:
           upstream_sync_repo: MaaAssistantArknights/MaaResource
       - name: New commits found
         if: steps.sync.outputs.has_new_commits == 'true'
-        uses: Yikun/hub-mirror-action@master
         
+        # uses: Yikun/hub-mirror-action@master
         # with:
         #   src: github/musekeeper
         #   dst: gitee/musekeeper
@@ -43,7 +43,7 @@ jobs:
         #   timeout: '600s'  # git超时设置，超时后会自动重试git操作
         #   force_update: true  # 启用后，强制同步，即强制覆盖目的端仓库
         #   debug: true  # 启用后会显示所有执行命令
-        # run: echo "New commits were found to sync."
+        run: echo "New commits were found to sync."
       
       - name: No new commits
         if: steps.sync.outputs.has_new_commits == 'false'

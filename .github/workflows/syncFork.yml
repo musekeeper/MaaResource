@@ -1,8 +1,5 @@
 name: Sync Fork
-permissions:
-  contents: write
-  pull-requests: write
-  actions: write
+permissions: write-all
 on:  
   schedule:  
     # 东八区下午4-11点（UTC 8-15点）每小时运行  

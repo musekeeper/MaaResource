@@ -2,67 +2,54 @@
     "Official": {
         "sideStoryStage": [
             {
-                "Display": "SSReopen-RS",
-                "Value": "SSReopen-RS",
-                "Drop": "代理1~8",
+                "Display": "OR-9",
+                "Value": "OR-9",
+                "Drop": "31063",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「银心湖列车」复刻",
-                    "StageName": "「银心湖列车」复刻",
-                    "UtcStartTime": "2024/12/19 16:00:00",
-                    "UtcExpireTime": "2024/12/29 03:59:59",
+                    "Tip": "SideStory「相见欢」",
+                    "StageName": "相见欢",
+                    "UtcStartTime": "2025/01/22 12:00:00",
+                    "UtcExpireTime": "2025/02/12 03:59:59",
                     "TimeZone": 8
                 }
             },
             {
-                "Display": "RS-6",
-                "Value": "RS-6",
-                "Drop": "30033",
+                "Display": "OR-8",
+                "Value": "OR-8",
+                "Drop": "31023",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「银心湖列车」复刻",
-                    "StageName": "「银心湖列车」复刻",
-                    "UtcStartTime": "2024/12/19 16:00:00",
-                    "UtcExpireTime": "2024/12/29 03:59:59",
+                    "Tip": "SideStory「相见欢」",
+                    "StageName": "相见欢",
+                    "UtcStartTime": "2025/01/22 12:00:00",
+                    "UtcExpireTime": "2025/02/12 03:59:59",
                     "TimeZone": 8
                 }
             },
             {
-                "Display": "RS-7",
-                "Value": "RS-7",
-                "Drop": "30083",
+                "Display": "OR-7",
+                "Value": "OR-7",
+                "Drop": "30063",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「银心湖列车」复刻",
-                    "StageName": "「银心湖列车」复刻",
-                    "UtcStartTime": "2024/12/19 16:00:00",
-                    "UtcExpireTime": "2024/12/29 03:59:59",
+                    "Tip": "SideStory「相见欢」",
+                    "StageName": "相见欢",
+                    "UtcStartTime": "2025/01/22 12:00:00",
+                    "UtcExpireTime": "2025/02/12 03:59:59",
                     "TimeZone": 8
                 }
             },
             {
-                "Display": "RS-8",
-                "Value": "RS-8",
-                "Drop": "晶体元件 杂鱼❤",
+                "Display": "OR-4",
+                "Value": "OR-4",
+                "Drop": "搓玉效率待定",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「银心湖列车」复刻",
-                    "StageName": "「银心湖列车」复刻",
-                    "UtcStartTime": "2024/12/19 16:00:00",
-                    "UtcExpireTime": "2024/12/29 03:59:59",
-                    "TimeZone": 8
-                }
-            },
-            {
-                "Display": "RS-5",
-                "Value": "RS-5",
-                "Drop": "每理智产0.7玉",
-                "MinimumRequired": "v5.10.0",
-                "Activity": {
-                    "Tip": "SideStory「银心湖列车」复刻",
-                    "StageName": "「银心湖列车」复刻",
-                    "UtcStartTime": "2024/12/19 16:00:00",
-                    "UtcExpireTime": "2024/12/29 03:59:59",
+                    "Tip": "SideStory「相见欢」",
+                    "StageName": "相见欢",
+                    "UtcStartTime": "2025/01/22 12:00:00",
+                    "UtcExpireTime": "2025/02/12 03:59:59",
                     "TimeZone": 8
                 }
             }
@@ -267,41 +254,41 @@
                 }
             },
             {
-                "Display": "OD-6",
-                "Value": "OD-6",
-                "Drop": "固源岩、裝置（搓玉效率82%）",
+                "Display": "HS-7",
+                "Value": "HS-7",
+                "Drop": "30012",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「源石塵行動」復刻",
-                    "StageName": "OD",
-                    "UtcStartTime": "2025/01/01 16:00:00",
-                    "UtcExpireTime": "2025/01/11 03:59:59",
+                    "Tip": "SideStory「懷黍離」",
+                    "StageName": "HS",
+                    "UtcStartTime": "2025/01/20 16:00:00",
+                    "UtcExpireTime": "2025/02/17 03:59:59",
                     "TimeZone": 8
                 }
             },
             {
-                "Display": "OD-7",
-                "Value": "OD-7",
-                "Drop": "30083",
+                "Display": "HS-8",
+                "Value": "HS-8",
+                "Drop": "30073",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「源石塵行動」復刻",
-                    "StageName": "OD",
-                    "UtcStartTime": "2025/01/01 16:00:00",
-                    "UtcExpireTime": "2025/01/11 03:59:59",
+                    "Tip": "SideStory「懷黍離」",
+                    "StageName": "HS",
+                    "UtcStartTime": "2025/01/20 16:00:00",
+                    "UtcExpireTime": "2025/02/17 03:59:59",
                     "TimeZone": 8
                 }
             },
             {
-                "Display": "OD-8",
-                "Value": "OD-8",
-                "Drop": "30093",
+                "Display": "HS-9",
+                "Value": "HS-9",
+                "Drop": "30103",
                 "MinimumRequired": "v5.10.0",
                 "Activity": {
-                    "Tip": "SideStory「源石塵行動」復刻",
-                    "StageName": "OD",
-                    "UtcStartTime": "2025/01/01 16:00:00",
-                    "UtcExpireTime": "2025/01/11 03:59:59",
+                    "Tip": "SideStory「懷黍離」",
+                    "StageName": "HS",
+                    "UtcStartTime": "2025/01/20 16:00:00",
+                    "UtcExpireTime": "2025/02/17 03:59:59",
                     "TimeZone": 8
                 }
             }

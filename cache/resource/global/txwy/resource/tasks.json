@@ -8,12 +8,28 @@
     "StageTheme": {
         "roi": [200, 640, 300, 60]
     },
-    "HE-5@SideStoryStage": {
-        "text": ["HE-5"]
+    "OrundumActivities": {
+        "text": ["幸運牆", "幸運", "好運牆", "好運", "游樂", "許願牆", "願牆"]
     },
-    "HE-5": {
-        "algorithm": "JustReturn",
-        "sub": ["HE-Open"],
-        "next": ["HE-5@SideStoryStage", "HE-5@SwipeToStage"]
+    "AS-OpenOcr": {
+        "text": [
+            "太陽甩在身後",
+            "太陽",
+            "甩在",
+            "用在",
+            "身後",
+            "市民花園",
+            "市民",
+            "花園",
+            "豐獲集會",
+            "豐獲",
+            "集會",
+            "藏珍寶庫",
+            "藏珍",
+            "寶庫"
+        ]
+    },
+    "ASChapterToAS": {
+        "text": ["市民花園", "市民", "花園"]
     }
 }

@@ -1,4 +1,12 @@
 {
+    "StartUp": {
+        "sub": [],
+        "postDelay": 1000,
+        "maxTimes": 3
+    },
+    "Home": {
+        "sub": []
+    }, 
     "Roguelike@ClickToDrops": {
         "specificRect": [630, 630, 1, 1]
     },
@@ -113,6 +121,8 @@
         "next": ["#self", "SideStoryStage", "ChapterSwipeToTheRight"]
     }
 }
+
+
 
 
 
